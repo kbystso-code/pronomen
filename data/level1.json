@@ -1,0 +1,366 @@
+{
+  "level": 1,
+  "title": "Level 1",
+  "items": [
+    {
+      "article": "der",
+      "noun": "Ball",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Tisch",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Stuhl",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Apfel",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Hund",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Fisch",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Zug",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Bus",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Schuh",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Bleistift",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Löffel",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Teller",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Baum",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Garten",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Mond",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Schlüssel",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Rucksack",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Computer",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Saft",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "der",
+      "noun": "Käse",
+      "gender": "maskulin",
+      "pronoun": "er"
+    },
+    {
+      "article": "die",
+      "noun": "Lampe",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Tasche",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Katze",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Banane",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Blume",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Schule",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Tür",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Uhr",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Gabel",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Flasche",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Sonne",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Hose",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Jacke",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Milch",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Suppe",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Straße",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Maus",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Zeitung",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Familie",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "die",
+      "noun": "Küche",
+      "gender": "feminin",
+      "pronoun": "sie"
+    },
+    {
+      "article": "das",
+      "noun": "Buch",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Auto",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Haus",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Kind",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Brot",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Wasser",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Glas",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Messer",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Bett",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Bild",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Fenster",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Zimmer",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Fahrrad",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Handy",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Spiel",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Ei",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Sofa",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Radio",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Papier",
+      "gender": "neutrum",
+      "pronoun": "es"
+    },
+    {
+      "article": "das",
+      "noun": "Mädchen",
+      "gender": "neutrum",
+      "pronoun": "es"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pronomen-Drill</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">Deutsch</p>
+      <h1>Pronomen-Drill</h1>
+    </div>
+    <a class="overview-link" href="https://kbystso-code.github.io/kids-app/">Zur Übersicht</a>
+  </header>
+
+  <main class="app-shell">
+    <section class="level-bar" aria-label="Level">
+      <button class="level-button is-active" type="button" data-level="1">Level 1</button>
+      <button class="level-button" type="button" disabled>Level 2 <span>Bald</span></button>
+      <button class="level-button" type="button" disabled>Level 3 <span>Bald</span></button>
+      <button class="level-button" type="button" disabled>Level 4 <span>Bald</span></button>
+    </section>
+
+    <section class="score-board" aria-label="Stand">
+      <div class="score-item">
+        <span>Frage:</span>
+        <strong id="questionCounter">0 / 20</strong>
+      </div>
+      <div class="score-item">
+        <span>Richtig:</span>
+        <strong id="correctCounter">0</strong>
+      </div>
+      <div class="score-item">
+        <span>Falsch:</span>
+        <strong id="wrongCounter">0</strong>
+      </div>
+    </section>
+
+    <section class="practice-area" aria-live="polite">
+      <div id="startScreen" class="screen is-visible">
+        <p class="intro-text">Wähle das passende Pronomen: er, sie oder es.</p>
+        <button id="startButton" class="primary-button" type="button" disabled>Starten</button>
+      </div>
+
+      <div id="quizScreen" class="screen">
+        <p class="question-label">Welches Pronomen passt?</p>
+        <h2 id="questionText" class="question-text">der Ball</h2>
+
+        <div class="answer-grid" role="group" aria-label="Antworten">
+          <button class="answer-button" type="button" data-pronoun="er">er</button>
+          <button class="answer-button" type="button" data-pronoun="sie">sie</button>
+          <button class="answer-button" type="button" data-pronoun="es">es</button>
+        </div>
+
+        <div id="feedback" class="feedback" aria-live="polite"></div>
+        <button id="nextButton" class="primary-button next-button" type="button">Weiter</button>
+      </div>
+
+      <div id="resultScreen" class="screen">
+        <h2 class="result-title">Fertig!</h2>
+        <div class="result-grid">
+          <p><span>Richtig:</span> <strong id="resultCorrect">0</strong></p>
+          <p><span>Falsch:</span> <strong id="resultWrong">0</strong></p>
+          <p><span>Quote:</span> <strong id="resultQuote">0%</strong></p>
+        </div>
+
+        <div id="reviewBlock" class="review-block">
+          <h3>Noch einmal üben:</h3>
+          <ul id="reviewList"></ul>
+        </div>
+
+        <button id="restartButton" class="primary-button" type="button">Noch einmal</button>
+      </div>
+
+      <p id="errorMessage" class="error-message" role="alert"></p>
+    </section>
+  </main>
+</body>
+</html>
