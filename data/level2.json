@@ -1,0 +1,487 @@
+{
+  "level": 2,
+  "title": "Level 2",
+  "mode": "shortSentence",
+  "items": [
+    {
+      "article": "der",
+      "noun": "Ball",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Ball ist rot.",
+      "sentence2": "___ ist rund."
+    },
+    {
+      "article": "der",
+      "noun": "Tisch",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Tisch ist groß.",
+      "sentence2": "___ ist braun."
+    },
+    {
+      "article": "der",
+      "noun": "Stuhl",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Stuhl ist klein.",
+      "sentence2": "___ ist bequem."
+    },
+    {
+      "article": "der",
+      "noun": "Apfel",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Apfel ist rot.",
+      "sentence2": "___ ist süß."
+    },
+    {
+      "article": "der",
+      "noun": "Hund",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Hund ist klein.",
+      "sentence2": "___ ist laut."
+    },
+    {
+      "article": "der",
+      "noun": "Fisch",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Fisch ist klein.",
+      "sentence2": "___ ist blau."
+    },
+    {
+      "article": "der",
+      "noun": "Zug",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Zug ist schnell.",
+      "sentence2": "___ ist lang."
+    },
+    {
+      "article": "der",
+      "noun": "Bus",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Bus ist groß.",
+      "sentence2": "___ ist voll."
+    },
+    {
+      "article": "der",
+      "noun": "Schuh",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Schuh ist schwarz.",
+      "sentence2": "___ ist neu."
+    },
+    {
+      "article": "der",
+      "noun": "Bleistift",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Bleistift ist lang.",
+      "sentence2": "___ ist spitz."
+    },
+    {
+      "article": "der",
+      "noun": "Löffel",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Löffel ist sauber.",
+      "sentence2": "___ ist klein."
+    },
+    {
+      "article": "der",
+      "noun": "Teller",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Teller ist weiß.",
+      "sentence2": "___ ist rund."
+    },
+    {
+      "article": "der",
+      "noun": "Baum",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Baum ist hoch.",
+      "sentence2": "___ ist grün."
+    },
+    {
+      "article": "der",
+      "noun": "Garten",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Garten ist groß.",
+      "sentence2": "___ ist schön."
+    },
+    {
+      "article": "der",
+      "noun": "Mond",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Mond ist hell.",
+      "sentence2": "___ ist rund."
+    },
+    {
+      "article": "der",
+      "noun": "Schlüssel",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Schlüssel ist klein.",
+      "sentence2": "___ ist wichtig."
+    },
+    {
+      "article": "der",
+      "noun": "Rucksack",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Rucksack ist schwer.",
+      "sentence2": "___ ist blau."
+    },
+    {
+      "article": "der",
+      "noun": "Computer",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Computer ist neu.",
+      "sentence2": "___ ist schnell."
+    },
+    {
+      "article": "der",
+      "noun": "Saft",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Saft ist kalt.",
+      "sentence2": "___ ist süß."
+    },
+    {
+      "article": "der",
+      "noun": "Käse",
+      "gender": "maskulin",
+      "pronoun": "er",
+      "sentence1": "Der Käse ist gelb.",
+      "sentence2": "___ ist lecker."
+    },
+    {
+      "article": "die",
+      "noun": "Lampe",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Lampe ist hell.",
+      "sentence2": "___ ist schön."
+    },
+    {
+      "article": "die",
+      "noun": "Tasche",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Tasche ist blau.",
+      "sentence2": "___ ist schwer."
+    },
+    {
+      "article": "die",
+      "noun": "Katze",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Katze ist klein.",
+      "sentence2": "___ ist leise."
+    },
+    {
+      "article": "die",
+      "noun": "Banane",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Banane ist gelb.",
+      "sentence2": "___ ist süß."
+    },
+    {
+      "article": "die",
+      "noun": "Blume",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Blume ist rot.",
+      "sentence2": "___ ist schön."
+    },
+    {
+      "article": "die",
+      "noun": "Schule",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Schule ist groß.",
+      "sentence2": "___ ist neu."
+    },
+    {
+      "article": "die",
+      "noun": "Tür",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Tür ist offen.",
+      "sentence2": "___ ist groß."
+    },
+    {
+      "article": "die",
+      "noun": "Uhr",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Uhr ist alt.",
+      "sentence2": "___ ist schön."
+    },
+    {
+      "article": "die",
+      "noun": "Gabel",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Gabel ist sauber.",
+      "sentence2": "___ ist klein."
+    },
+    {
+      "article": "die",
+      "noun": "Flasche",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Flasche ist voll.",
+      "sentence2": "___ ist kalt."
+    },
+    {
+      "article": "die",
+      "noun": "Sonne",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Sonne ist warm.",
+      "sentence2": "___ ist hell."
+    },
+    {
+      "article": "die",
+      "noun": "Hose",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Hose ist blau.",
+      "sentence2": "___ ist neu."
+    },
+    {
+      "article": "die",
+      "noun": "Jacke",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Jacke ist rot.",
+      "sentence2": "___ ist warm."
+    },
+    {
+      "article": "die",
+      "noun": "Milch",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Milch ist kalt.",
+      "sentence2": "___ ist frisch."
+    },
+    {
+      "article": "die",
+      "noun": "Suppe",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Suppe ist heiß.",
+      "sentence2": "___ ist lecker."
+    },
+    {
+      "article": "die",
+      "noun": "Straße",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Straße ist lang.",
+      "sentence2": "___ ist breit."
+    },
+    {
+      "article": "die",
+      "noun": "Maus",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Maus ist klein.",
+      "sentence2": "___ ist schnell."
+    },
+    {
+      "article": "die",
+      "noun": "Zeitung",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Zeitung ist alt.",
+      "sentence2": "___ ist interessant."
+    },
+    {
+      "article": "die",
+      "noun": "Familie",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Familie ist groß.",
+      "sentence2": "___ ist nett."
+    },
+    {
+      "article": "die",
+      "noun": "Küche",
+      "gender": "feminin",
+      "pronoun": "sie",
+      "sentence1": "Die Küche ist sauber.",
+      "sentence2": "___ ist groß."
+    },
+    {
+      "article": "das",
+      "noun": "Buch",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Buch ist neu.",
+      "sentence2": "___ ist interessant."
+    },
+    {
+      "article": "das",
+      "noun": "Auto",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Auto ist rot.",
+      "sentence2": "___ ist schnell."
+    },
+    {
+      "article": "das",
+      "noun": "Haus",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Haus ist groß.",
+      "sentence2": "___ ist alt."
+    },
+    {
+      "article": "das",
+      "noun": "Kind",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Kind ist klein.",
+      "sentence2": "___ ist müde."
+    },
+    {
+      "article": "das",
+      "noun": "Brot",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Brot ist frisch.",
+      "sentence2": "___ ist lecker."
+    },
+    {
+      "article": "das",
+      "noun": "Wasser",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Wasser ist kalt.",
+      "sentence2": "___ ist frisch."
+    },
+    {
+      "article": "das",
+      "noun": "Glas",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Glas ist sauber.",
+      "sentence2": "___ ist leer."
+    },
+    {
+      "article": "das",
+      "noun": "Messer",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Messer ist scharf.",
+      "sentence2": "___ ist klein."
+    },
+    {
+      "article": "das",
+      "noun": "Bett",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Bett ist weich.",
+      "sentence2": "___ ist groß."
+    },
+    {
+      "article": "das",
+      "noun": "Bild",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Bild ist bunt.",
+      "sentence2": "___ ist schön."
+    },
+    {
+      "article": "das",
+      "noun": "Fenster",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Fenster ist offen.",
+      "sentence2": "___ ist groß."
+    },
+    {
+      "article": "das",
+      "noun": "Zimmer",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Zimmer ist klein.",
+      "sentence2": "___ ist hell."
+    },
+    {
+      "article": "das",
+      "noun": "Fahrrad",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Fahrrad ist neu.",
+      "sentence2": "___ ist schnell."
+    },
+    {
+      "article": "das",
+      "noun": "Handy",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Handy ist klein.",
+      "sentence2": "___ ist neu."
+    },
+    {
+      "article": "das",
+      "noun": "Spiel",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Spiel ist lustig.",
+      "sentence2": "___ ist einfach."
+    },
+    {
+      "article": "das",
+      "noun": "Ei",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Ei ist weiß.",
+      "sentence2": "___ ist klein."
+    },
+    {
+      "article": "das",
+      "noun": "Sofa",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Sofa ist bequem.",
+      "sentence2": "___ ist groß."
+    },
+    {
+      "article": "das",
+      "noun": "Radio",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Radio ist alt.",
+      "sentence2": "___ ist laut."
+    },
+    {
+      "article": "das",
+      "noun": "Papier",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Papier ist weiß.",
+      "sentence2": "___ ist leicht."
+    },
+    {
+      "article": "das",
+      "noun": "Mädchen",
+      "gender": "neutrum",
+      "pronoun": "es",
+      "sentence1": "Das Mädchen ist nett.",
+      "sentence2": "___ ist freundlich."
+    }
+  ]
+}

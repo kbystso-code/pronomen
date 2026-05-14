@@ -1,4 +1,7 @@
-const DATA_URL = 'data/level1.json?v=20260430-1';
+const DATA_URLS = {
+  1: 'data/level1.json?v=20260514-1',
+  2: 'data/level2.json?v=20260514-1'
+};
 const SET_SIZE = 20;
 const KIDS_APP_PROGRESS_KEY = 'kids-app-study-progress-v1';
 const KIDS_APP_APP_ID = 'pronomen';
@@ -15,7 +18,8 @@ const state = {
   correct: 0,
   wrong: 0,
   mistakes: [],
-  answered: false
+  answered: false,
+  selectedLevel: 1
 };
 
 const elements = {
@@ -25,6 +29,7 @@ const elements = {
   startButton: document.querySelector('#startButton'),
   restartButton: document.querySelector('#restartButton'),
   nextButton: document.querySelector('#nextButton'),
+  levelButtons: document.querySelectorAll('.level-button[data-level]'),
   questionCounter: document.querySelector('#questionCounter'),
   correctCounter: document.querySelector('#correctCounter'),
   wrongCounter: document.querySelector('#wrongCounter'),
@@ -46,17 +51,35 @@ async function init() {
   elements.restartButton.addEventListener('click', () => startLevel());
   elements.nextButton.addEventListener('click', goToNextQuestion);
 
+  elements.levelButtons.forEach((button) => {
+    button.addEventListener('click', () => selectLevel(Number(button.dataset.level)));
+  });
+
   elements.answerButtons.forEach((button) => {
     button.addEventListener('click', () => checkAnswer(button.dataset.pronoun));
   });
 
   updateCounters();
-  await loadData();
+  updateLevelButtons();
+  await loadData(state.selectedLevel);
 }
 
-async function loadData() {
+async function selectLevel(level) {
+  if (level === state.selectedLevel) {
+    return;
+  }
+
+  state.selectedLevel = level;
+  resetPracticeState();
+  updateLevelButtons();
+  updateCounters();
+  showScreen(elements.startScreen);
+  await loadData(level);
+}
+
+async function loadData(level) {
   try {
-    const response = await fetch(DATA_URL, { cache: 'no-store' });
+    const response = await fetch(DATA_URLS[level], { cache: 'no-store' });
 
     if (!response.ok) {
       throw new Error('Datenfehler');
@@ -90,6 +113,23 @@ function startLevel() {
   showQuestion();
 }
 
+function resetPracticeState() {
+  state.data = null;
+  state.questions = [];
+  state.currentIndex = 0;
+  state.correct = 0;
+  state.wrong = 0;
+  state.mistakes = [];
+  state.answered = false;
+  elements.feedback.textContent = '';
+  elements.feedback.className = 'feedback';
+  elements.nextButton.classList.remove('is-visible');
+  elements.reviewList.innerHTML = '';
+  elements.reviewBlock.classList.remove('is-visible');
+  elements.errorMessage.textContent = '';
+  elements.startButton.disabled = true;
+}
+
 function buildQuestionSet(items) {
   const selectedItems = Object.entries(LEVEL_BALANCE).flatMap(([gender, count]) => {
     const genderItems = items.filter((item) => item.gender === gender);
@@ -103,7 +143,8 @@ function showQuestion() {
   const question = state.questions[state.currentIndex];
 
   state.answered = false;
-  elements.questionText.textContent = `${question.article} ${question.noun}`;
+  renderQuestionText(question);
+  updateAnswerButtonLabels();
   elements.feedback.textContent = '';
   elements.feedback.className = 'feedback';
   elements.nextButton.classList.remove('is-visible');
@@ -122,7 +163,9 @@ function checkAnswer(selectedPronoun) {
   }
 
   const question = state.questions[state.currentIndex];
-  const isCorrect = selectedPronoun === question.pronoun;
+  const normalizedSelectedPronoun = selectedPronoun.toLowerCase();
+  const normalizedCorrectPronoun = question.pronoun.toLowerCase();
+  const isCorrect = normalizedSelectedPronoun === normalizedCorrectPronoun;
 
   state.answered = true;
 
@@ -136,11 +179,11 @@ function checkAnswer(selectedPronoun) {
   elements.answerButtons.forEach((button) => {
     button.disabled = true;
 
-    if (button.dataset.pronoun === question.pronoun) {
+    if (button.dataset.pronoun.toLowerCase() === normalizedCorrectPronoun) {
       button.classList.add('is-correct');
     }
 
-    if (!isCorrect && button.dataset.pronoun === selectedPronoun) {
+    if (!isCorrect && button.dataset.pronoun.toLowerCase() === normalizedSelectedPronoun) {
       button.classList.add('is-wrong');
     }
   });
@@ -150,6 +193,33 @@ function checkAnswer(selectedPronoun) {
   updateCounters();
 }
 
+function renderQuestionText(question) {
+  const isShortSentence = state.data?.mode === 'shortSentence';
+
+  if (!isShortSentence) {
+    elements.questionText.textContent = `${question.article} ${question.noun}`;
+    return;
+  }
+
+  elements.questionText.textContent = '';
+  [question.sentence1, question.sentence2].forEach((sentence) => {
+    const line = document.createElement('span');
+    line.textContent = sentence;
+    elements.questionText.appendChild(line);
+  });
+}
+
+function updateAnswerButtonLabels() {
+  const isShortSentence = state.data?.mode === 'shortSentence';
+
+  elements.answerButtons.forEach((button) => {
+    const pronoun = button.dataset.pronoun;
+    button.textContent = isShortSentence
+      ? `${pronoun.charAt(0).toUpperCase()}${pronoun.slice(1)}`
+      : pronoun;
+  });
+}
+
 function showFeedback(question, isCorrect) {
   const nounText = `${question.article} ${question.noun}`;
 
@@ -157,6 +227,13 @@ function showFeedback(question, isCorrect) {
   elements.feedback.innerHTML = isCorrect
     ? `<p>Richtig!</p><p>${nounText} ist ${question.gender}.</p><p>Deshalb: ${question.pronoun}.</p>`
     : `<p>Nicht ganz.</p><p>${nounText} ist ${question.gender}.</p><p>Richtig ist: ${question.pronoun}.</p>`;
+}
+
+function updateLevelButtons() {
+  elements.levelButtons.forEach((button) => {
+    const level = Number(button.dataset.level);
+    button.classList.toggle('is-active', level === state.selectedLevel);
+  });
 }
 
 function goToNextQuestion() {

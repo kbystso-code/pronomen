@@ -189,6 +189,12 @@ h1 {
   line-height: 1.05;
 }
 
+.question-text span {
+  display: block;
+  font-size: clamp(2.1rem, 5vw, 4.2rem);
+  line-height: 1.18;
+}
+
 .answer-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(8rem, 1fr));
