@@ -1,6 +1,8 @@
 const DATA_URLS = {
-  1: 'data/level1.json?v=20260514-1',
-  2: 'data/level2.json?v=20260514-1'
+  1: 'data/level1.json?v=20260525-1',
+  2: 'data/level2.json?v=20260525-1',
+  3: 'data/level3.json?v=20260525-1',
+  4: 'data/level4.json?v=20260525-1'
 };
 const SET_SIZE = 20;
 const KIDS_APP_PROGRESS_KEY = 'kids-app-study-progress-v1';
@@ -56,7 +58,7 @@ async function init() {
   });
 
   elements.answerButtons.forEach((button) => {
-    button.addEventListener('click', () => checkAnswer(button.dataset.pronoun));
+    button.addEventListener('click', () => checkAnswer(button.dataset.answer));
   });
 
   updateCounters();
@@ -102,6 +104,11 @@ function startLevel() {
   }
 
   state.questions = buildQuestionSet(state.data.items);
+  if (state.questions.length !== SET_SIZE) {
+    elements.errorMessage.textContent = 'Die Daten konnten nicht geladen werden.';
+    return;
+  }
+
   state.currentIndex = 0;
   state.correct = 0;
   state.wrong = 0;
@@ -144,7 +151,6 @@ function showQuestion() {
 
   state.answered = false;
   renderQuestionText(question);
-  updateAnswerButtonLabels();
   elements.feedback.textContent = '';
   elements.feedback.className = 'feedback';
   elements.nextButton.classList.remove('is-visible');
@@ -179,11 +185,11 @@ function checkAnswer(selectedPronoun) {
   elements.answerButtons.forEach((button) => {
     button.disabled = true;
 
-    if (button.dataset.pronoun.toLowerCase() === normalizedCorrectPronoun) {
+    if (button.dataset.answer.toLowerCase() === normalizedCorrectPronoun) {
       button.classList.add('is-correct');
     }
 
-    if (!isCorrect && button.dataset.pronoun.toLowerCase() === normalizedSelectedPronoun) {
+    if (!isCorrect && button.dataset.answer.toLowerCase() === normalizedSelectedPronoun) {
       button.classList.add('is-wrong');
     }
   });
@@ -194,34 +200,16 @@ function checkAnswer(selectedPronoun) {
 }
 
 function renderQuestionText(question) {
-  const isShortSentence = state.data?.mode === 'shortSentence';
-
-  if (!isShortSentence) {
-    elements.questionText.textContent = `${question.article} ${question.noun}`;
-    return;
-  }
-
   elements.questionText.textContent = '';
-  [question.sentence1, question.sentence2].forEach((sentence) => {
+  question.lines.forEach((sentence) => {
     const line = document.createElement('span');
     line.textContent = sentence;
     elements.questionText.appendChild(line);
   });
 }
 
-function updateAnswerButtonLabels() {
-  const isShortSentence = state.data?.mode === 'shortSentence';
-
-  elements.answerButtons.forEach((button) => {
-    const pronoun = button.dataset.pronoun;
-    button.textContent = isShortSentence
-      ? `${pronoun.charAt(0).toUpperCase()}${pronoun.slice(1)}`
-      : pronoun;
-  });
-}
-
 function showFeedback(question, isCorrect) {
-  const nounText = `${question.article} ${question.noun}`;
+  const nounText = `${capitalizeFirstLetter(question.article)} ${question.noun}`;
 
   elements.feedback.classList.add(isCorrect ? 'is-correct' : 'is-wrong');
   elements.feedback.innerHTML = isCorrect
@@ -298,6 +286,10 @@ function shuffleArray(array) {
   }
 
   return shuffled;
+}
+
+function capitalizeFirstLetter(value) {
+  return `${value.charAt(0).toUpperCase()}${value.slice(1)}`;
 }
 
 function getKidsAppTodayKey() {

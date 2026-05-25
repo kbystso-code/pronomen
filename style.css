@@ -102,13 +102,6 @@ h1 {
   box-shadow: 0 8px 18px rgba(31, 70, 112, 0.08);
 }
 
-.level-button span {
-  display: block;
-  margin-top: 0.15rem;
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
 .level-button.is-active {
   color: #ffffff;
   background: var(--green);
@@ -183,16 +176,18 @@ h1 {
 }
 
 .question-text {
+  display: grid;
+  gap: 0.45rem;
+  width: min(100%, 880px);
   margin: 0.1rem 0 0.4rem;
   padding: 0.4rem 1rem;
-  font-size: clamp(3rem, 8vw, 6.4rem);
-  line-height: 1.05;
+  font-size: clamp(2rem, 4.4vw, 4.2rem);
+  font-weight: 900;
+  line-height: 1.12;
 }
 
 .question-text span {
   display: block;
-  font-size: clamp(2.1rem, 5vw, 4.2rem);
-  line-height: 1.18;
 }
 
 .answer-grid {

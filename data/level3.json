@@ -1,666 +1,666 @@
 {
-  "level": 1,
-  "title": "Level 1",
-  "mode": "contextBasic",
+  "level": 3,
+  "title": "Level 3",
+  "mode": "dialogue",
   "items": [
     {
-      "id": "l1-m-001",
+      "id": "l3-m-001",
       "article": "der",
       "noun": "Ball",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Ball liegt im Garten.",
-        "___ ist rot."
+        "A: Wo ist der Ball?",
+        "B: ___ liegt im Garten."
       ]
     },
     {
-      "id": "l1-m-002",
+      "id": "l3-m-002",
       "article": "der",
       "noun": "Tisch",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Tisch steht im Zimmer.",
-        "___ ist braun."
+        "A: Wo ist der Tisch?",
+        "B: ___ steht im Zimmer."
       ]
     },
     {
-      "id": "l1-m-003",
+      "id": "l3-m-003",
       "article": "der",
       "noun": "Stuhl",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Stuhl steht am Tisch.",
-        "___ ist bequem."
+        "A: Wie ist der Stuhl?",
+        "B: ___ ist bequem."
       ]
     },
     {
-      "id": "l1-m-004",
+      "id": "l3-m-004",
       "article": "der",
       "noun": "Apfel",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Apfel liegt auf dem Teller.",
-        "___ ist süß."
+        "A: Wie ist der Apfel?",
+        "B: ___ ist süß."
       ]
     },
     {
-      "id": "l1-m-005",
+      "id": "l3-m-005",
       "article": "der",
       "noun": "Hund",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Hund spielt im Garten.",
-        "___ ist laut."
+        "A: Was macht der Hund?",
+        "B: ___ bellt laut."
       ]
     },
     {
-      "id": "l1-m-006",
+      "id": "l3-m-006",
       "article": "der",
       "noun": "Fisch",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Fisch schwimmt im Wasser.",
-        "___ ist klein."
+        "A: Was macht der Fisch?",
+        "B: ___ schwimmt im Wasser."
       ]
     },
     {
-      "id": "l1-m-007",
+      "id": "l3-m-007",
       "article": "der",
       "noun": "Zug",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Zug steht am Bahnhof.",
-        "___ ist lang."
+        "A: Wie ist der Zug?",
+        "B: ___ ist schnell."
       ]
     },
     {
-      "id": "l1-m-008",
+      "id": "l3-m-008",
       "article": "der",
       "noun": "Bus",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Bus steht an der Straße.",
-        "___ ist voll."
+        "A: Wo ist der Bus?",
+        "B: ___ steht an der Straße."
       ]
     },
     {
-      "id": "l1-m-009",
+      "id": "l3-m-009",
       "article": "der",
       "noun": "Schuh",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Schuh steht vor der Tür.",
-        "___ ist neu."
+        "A: Wo ist der Schuh?",
+        "B: ___ steht vor der Tür."
       ]
     },
     {
-      "id": "l1-m-010",
+      "id": "l3-m-010",
       "article": "der",
       "noun": "Bleistift",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Bleistift liegt auf dem Tisch.",
-        "___ ist spitz."
+        "A: Wie ist der Bleistift?",
+        "B: ___ ist spitz."
       ]
     },
     {
-      "id": "l1-m-011",
+      "id": "l3-m-011",
       "article": "der",
       "noun": "Löffel",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Löffel liegt neben dem Teller.",
-        "___ ist sauber."
+        "A: Wo ist der Löffel?",
+        "B: ___ liegt neben dem Teller."
       ]
     },
     {
-      "id": "l1-m-012",
+      "id": "l3-m-012",
       "article": "der",
       "noun": "Teller",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Teller steht auf dem Tisch.",
-        "___ ist rund."
+        "A: Wie ist der Teller?",
+        "B: ___ ist rund."
       ]
     },
     {
-      "id": "l1-m-013",
+      "id": "l3-m-013",
       "article": "der",
       "noun": "Baum",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Baum steht im Garten.",
-        "___ ist hoch."
+        "A: Wo ist der Baum?",
+        "B: ___ steht im Garten."
       ]
     },
     {
-      "id": "l1-m-014",
+      "id": "l3-m-014",
       "article": "der",
       "noun": "Garten",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Garten liegt hinter dem Haus.",
-        "___ ist schön."
+        "A: Wie ist der Garten?",
+        "B: ___ ist schön."
       ]
     },
     {
-      "id": "l1-m-015",
+      "id": "l3-m-015",
       "article": "der",
       "noun": "Mond",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Mond steht am Himmel.",
-        "___ ist hell."
+        "A: Wie ist der Mond?",
+        "B: ___ ist hell."
       ]
     },
     {
-      "id": "l1-m-016",
+      "id": "l3-m-016",
       "article": "der",
       "noun": "Schlüssel",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Schlüssel liegt auf dem Tisch.",
-        "___ ist klein."
+        "A: Wo ist der Schlüssel?",
+        "B: ___ liegt auf dem Tisch."
       ]
     },
     {
-      "id": "l1-m-017",
+      "id": "l3-m-017",
       "article": "der",
       "noun": "Rucksack",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Rucksack steht neben der Tür.",
-        "___ ist schwer."
+        "A: Wie ist der Rucksack?",
+        "B: ___ ist schwer."
       ]
     },
     {
-      "id": "l1-m-018",
+      "id": "l3-m-018",
       "article": "der",
       "noun": "Computer",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Computer steht auf dem Schreibtisch.",
-        "___ ist schnell."
+        "A: Wie ist der Computer?",
+        "B: ___ ist schnell."
       ]
     },
     {
-      "id": "l1-m-019",
+      "id": "l3-m-019",
       "article": "der",
       "noun": "Saft",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Saft steht im Glas.",
-        "___ ist kalt."
+        "A: Wie ist der Saft?",
+        "B: ___ ist kalt."
       ]
     },
     {
-      "id": "l1-m-020",
+      "id": "l3-m-020",
       "article": "der",
       "noun": "Käse",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Käse liegt auf dem Teller.",
-        "___ ist gelb."
+        "A: Wie ist der Käse?",
+        "B: ___ ist lecker."
       ]
     },
     {
-      "id": "l1-f-021",
+      "id": "l3-f-021",
       "article": "die",
       "noun": "Lampe",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Lampe steht auf dem Tisch.",
-        "___ ist hell."
+        "A: Wo ist die Lampe?",
+        "B: ___ steht auf dem Tisch."
       ]
     },
     {
-      "id": "l1-f-022",
+      "id": "l3-f-022",
       "article": "die",
       "noun": "Tasche",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Tasche liegt auf dem Stuhl.",
-        "___ ist schwer."
+        "A: Wo ist die Tasche?",
+        "B: ___ liegt auf dem Stuhl."
       ]
     },
     {
-      "id": "l1-f-023",
+      "id": "l3-f-023",
       "article": "die",
       "noun": "Katze",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Katze sitzt auf dem Sofa.",
-        "___ ist leise."
+        "A: Was macht die Katze?",
+        "B: ___ sitzt auf dem Sofa."
       ]
     },
     {
-      "id": "l1-f-024",
+      "id": "l3-f-024",
       "article": "die",
       "noun": "Banane",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Banane liegt in der Tasche.",
-        "___ ist gelb."
+        "A: Wie ist die Banane?",
+        "B: ___ ist gelb."
       ]
     },
     {
-      "id": "l1-f-025",
+      "id": "l3-f-025",
       "article": "die",
       "noun": "Blume",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Blume steht im Glas.",
-        "___ ist schön."
+        "A: Wie ist die Blume?",
+        "B: ___ ist schön."
       ]
     },
     {
-      "id": "l1-f-026",
+      "id": "l3-f-026",
       "article": "die",
       "noun": "Schule",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Schule liegt an der Straße.",
-        "___ ist groß."
+        "A: Wo ist die Schule?",
+        "B: ___ liegt an der Straße."
       ]
     },
     {
-      "id": "l1-f-027",
+      "id": "l3-f-027",
       "article": "die",
       "noun": "Tür",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Tür steht offen.",
-        "___ ist groß."
+        "A: Wie ist die Tür?",
+        "B: ___ ist offen."
       ]
     },
     {
-      "id": "l1-f-028",
+      "id": "l3-f-028",
       "article": "die",
       "noun": "Uhr",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Uhr hängt an der Wand.",
-        "___ ist alt."
+        "A: Wo ist die Uhr?",
+        "B: ___ hängt an der Wand."
       ]
     },
     {
-      "id": "l1-f-029",
+      "id": "l3-f-029",
       "article": "die",
       "noun": "Gabel",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Gabel liegt neben dem Teller.",
-        "___ ist sauber."
+        "A: Wo ist die Gabel?",
+        "B: ___ liegt neben dem Teller."
       ]
     },
     {
-      "id": "l1-f-030",
+      "id": "l3-f-030",
       "article": "die",
       "noun": "Flasche",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Flasche steht auf dem Tisch.",
-        "___ ist voll."
+        "A: Wie ist die Flasche?",
+        "B: ___ ist voll."
       ]
     },
     {
-      "id": "l1-f-031",
+      "id": "l3-f-031",
       "article": "die",
       "noun": "Sonne",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Sonne scheint am Himmel.",
-        "___ ist warm."
+        "A: Wie ist die Sonne?",
+        "B: ___ ist warm."
       ]
     },
     {
-      "id": "l1-f-032",
+      "id": "l3-f-032",
       "article": "die",
       "noun": "Hose",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Hose liegt auf dem Bett.",
-        "___ ist blau."
+        "A: Wo ist die Hose?",
+        "B: ___ liegt auf dem Bett."
       ]
     },
     {
-      "id": "l1-f-033",
+      "id": "l3-f-033",
       "article": "die",
       "noun": "Jacke",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Jacke hängt an der Tür.",
-        "___ ist warm."
+        "A: Wo ist die Jacke?",
+        "B: ___ hängt an der Tür."
       ]
     },
     {
-      "id": "l1-f-034",
+      "id": "l3-f-034",
       "article": "die",
       "noun": "Milch",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Milch steht im Kühlschrank.",
-        "___ ist frisch."
+        "A: Wie ist die Milch?",
+        "B: ___ ist frisch."
       ]
     },
     {
-      "id": "l1-f-035",
+      "id": "l3-f-035",
       "article": "die",
       "noun": "Suppe",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Suppe steht auf dem Tisch.",
-        "___ ist heiß."
+        "A: Wie ist die Suppe?",
+        "B: ___ ist heiß."
       ]
     },
     {
-      "id": "l1-f-036",
+      "id": "l3-f-036",
       "article": "die",
       "noun": "Straße",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Straße liegt vor der Schule.",
-        "___ ist breit."
+        "A: Wie ist die Straße?",
+        "B: ___ ist breit."
       ]
     },
     {
-      "id": "l1-f-037",
+      "id": "l3-f-037",
       "article": "die",
       "noun": "Maus",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Maus sitzt unter dem Tisch.",
-        "___ ist schnell."
+        "A: Was macht die Maus?",
+        "B: ___ läuft schnell."
       ]
     },
     {
-      "id": "l1-f-038",
+      "id": "l3-f-038",
       "article": "die",
       "noun": "Zeitung",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Zeitung liegt auf dem Sofa.",
-        "___ ist interessant."
+        "A: Wo ist die Zeitung?",
+        "B: ___ liegt auf dem Sofa."
       ]
     },
     {
-      "id": "l1-f-039",
+      "id": "l3-f-039",
       "article": "die",
       "noun": "Familie",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Familie sitzt im Garten.",
-        "___ ist nett."
+        "A: Wie ist die Familie?",
+        "B: ___ ist nett."
       ]
     },
     {
-      "id": "l1-f-040",
+      "id": "l3-f-040",
       "article": "die",
       "noun": "Küche",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Küche ist neben dem Zimmer.",
-        "___ ist sauber."
+        "A: Wie ist die Küche?",
+        "B: ___ ist sauber."
       ]
     },
     {
-      "id": "l1-n-041",
+      "id": "l3-n-041",
       "article": "das",
       "noun": "Buch",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Buch liegt im Regal.",
-        "___ ist interessant."
+        "A: Wo ist das Buch?",
+        "B: ___ liegt im Regal."
       ]
     },
     {
-      "id": "l1-n-042",
+      "id": "l3-n-042",
       "article": "das",
       "noun": "Auto",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Auto steht vor dem Haus.",
-        "___ ist schnell."
+        "A: Wo ist das Auto?",
+        "B: ___ steht vor dem Haus."
       ]
     },
     {
-      "id": "l1-n-043",
+      "id": "l3-n-043",
       "article": "das",
       "noun": "Haus",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Haus steht am Garten.",
-        "___ ist groß."
+        "A: Wie ist das Haus?",
+        "B: ___ ist groß."
       ]
     },
     {
-      "id": "l1-n-044",
+      "id": "l3-n-044",
       "article": "das",
       "noun": "Kind",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Kind spielt im Zimmer.",
-        "___ ist müde."
+        "A: Wie ist das Kind?",
+        "B: ___ ist müde."
       ]
     },
     {
-      "id": "l1-n-045",
+      "id": "l3-n-045",
       "article": "das",
       "noun": "Brot",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Brot liegt auf dem Tisch.",
-        "___ ist frisch."
+        "A: Wie ist das Brot?",
+        "B: ___ ist frisch."
       ]
     },
     {
-      "id": "l1-n-046",
+      "id": "l3-n-046",
       "article": "das",
       "noun": "Wasser",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Wasser steht im Glas.",
-        "___ ist kalt."
+        "A: Wie ist das Wasser?",
+        "B: ___ ist kalt."
       ]
     },
     {
-      "id": "l1-n-047",
+      "id": "l3-n-047",
       "article": "das",
       "noun": "Glas",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Glas steht auf dem Tisch.",
-        "___ ist leer."
+        "A: Wie ist das Glas?",
+        "B: ___ ist leer."
       ]
     },
     {
-      "id": "l1-n-048",
+      "id": "l3-n-048",
       "article": "das",
       "noun": "Messer",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Messer liegt neben dem Teller.",
-        "___ ist scharf."
+        "A: Wie ist das Messer?",
+        "B: ___ ist scharf."
       ]
     },
     {
-      "id": "l1-n-049",
+      "id": "l3-n-049",
       "article": "das",
       "noun": "Bett",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Bett steht im Zimmer.",
-        "___ ist weich."
+        "A: Wie ist das Bett?",
+        "B: ___ ist weich."
       ]
     },
     {
-      "id": "l1-n-050",
+      "id": "l3-n-050",
       "article": "das",
       "noun": "Bild",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Bild hängt an der Wand.",
-        "___ ist bunt."
+        "A: Wo ist das Bild?",
+        "B: ___ hängt an der Wand."
       ]
     },
     {
-      "id": "l1-n-051",
+      "id": "l3-n-051",
       "article": "das",
       "noun": "Fenster",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Fenster ist offen.",
-        "___ ist groß."
+        "A: Wie ist das Fenster?",
+        "B: ___ ist offen."
       ]
     },
     {
-      "id": "l1-n-052",
+      "id": "l3-n-052",
       "article": "das",
       "noun": "Zimmer",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Zimmer ist im Haus.",
-        "___ ist hell."
+        "A: Wie ist das Zimmer?",
+        "B: ___ ist hell."
       ]
     },
     {
-      "id": "l1-n-053",
+      "id": "l3-n-053",
       "article": "das",
       "noun": "Fahrrad",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Fahrrad steht im Garten.",
-        "___ ist schnell."
+        "A: Wo ist das Fahrrad?",
+        "B: ___ steht im Garten."
       ]
     },
     {
-      "id": "l1-n-054",
+      "id": "l3-n-054",
       "article": "das",
       "noun": "Handy",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Handy liegt auf dem Tisch.",
-        "___ ist klein."
+        "A: Wo ist das Handy?",
+        "B: ___ liegt auf dem Tisch."
       ]
     },
     {
-      "id": "l1-n-055",
+      "id": "l3-n-055",
       "article": "das",
       "noun": "Spiel",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Spiel liegt im Regal.",
-        "___ ist lustig."
+        "A: Wie ist das Spiel?",
+        "B: ___ ist lustig."
       ]
     },
     {
-      "id": "l1-n-056",
+      "id": "l3-n-056",
       "article": "das",
       "noun": "Ei",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Ei liegt auf dem Teller.",
-        "___ ist weiß."
+        "A: Wie ist das Ei?",
+        "B: ___ ist weiß."
       ]
     },
     {
-      "id": "l1-n-057",
+      "id": "l3-n-057",
       "article": "das",
       "noun": "Sofa",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Sofa steht im Zimmer.",
-        "___ ist bequem."
+        "A: Wie ist das Sofa?",
+        "B: ___ ist bequem."
       ]
     },
     {
-      "id": "l1-n-058",
+      "id": "l3-n-058",
       "article": "das",
       "noun": "Radio",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Radio steht in der Küche.",
-        "___ ist laut."
+        "A: Wie ist das Radio?",
+        "B: ___ ist laut."
       ]
     },
     {
-      "id": "l1-n-059",
+      "id": "l3-n-059",
       "article": "das",
       "noun": "Papier",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Papier liegt auf dem Tisch.",
-        "___ ist leicht."
+        "A: Wie ist das Papier?",
+        "B: ___ ist leicht."
       ]
     },
     {
-      "id": "l1-n-060",
+      "id": "l3-n-060",
       "article": "das",
       "noun": "Mädchen",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Mädchen sitzt im Zimmer.",
-        "___ ist freundlich."
+        "A: Wie ist das Mädchen?",
+        "B: ___ ist freundlich."
       ]
     }
   ]

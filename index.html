@@ -20,8 +20,8 @@
     <section class="level-bar" aria-label="Level">
       <button class="level-button is-active" type="button" data-level="1">Level 1</button>
       <button class="level-button" type="button" data-level="2">Level 2</button>
-      <button class="level-button" type="button" disabled>Level 3 <span>Bald</span></button>
-      <button class="level-button" type="button" disabled>Level 4 <span>Bald</span></button>
+      <button class="level-button" type="button" data-level="3">Level 3</button>
+      <button class="level-button" type="button" data-level="4">Level 4</button>
     </section>
 
     <section class="score-board" aria-label="Stand">
@@ -47,12 +47,12 @@
 
       <div id="quizScreen" class="screen">
         <p class="question-label">Welches Pronomen passt?</p>
-        <h2 id="questionText" class="question-text">der Ball</h2>
+        <div id="questionText" class="question-text"></div>
 
         <div class="answer-grid" role="group" aria-label="Antworten">
-          <button class="answer-button" type="button" data-pronoun="er">er</button>
-          <button class="answer-button" type="button" data-pronoun="sie">sie</button>
-          <button class="answer-button" type="button" data-pronoun="es">es</button>
+          <button class="answer-button" type="button" data-answer="er">Er</button>
+          <button class="answer-button" type="button" data-answer="sie">Sie</button>
+          <button class="answer-button" type="button" data-answer="es">Es</button>
         </div>
 
         <div id="feedback" class="feedback" aria-live="polite"></div>

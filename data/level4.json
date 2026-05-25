@@ -1,665 +1,725 @@
 {
-  "level": 1,
-  "title": "Level 1",
-  "mode": "contextBasic",
+  "level": 4,
+  "title": "Level 4",
+  "mode": "shortContext",
   "items": [
     {
-      "id": "l1-m-001",
+      "id": "l4-m-001",
       "article": "der",
       "noun": "Ball",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Ball liegt im Garten.",
-        "___ ist rot."
+        "Im Garten liegt ein Ball.",
+        "Der Ball ist rot.",
+        "___ ist rund."
       ]
     },
     {
-      "id": "l1-m-002",
+      "id": "l4-m-002",
       "article": "der",
       "noun": "Tisch",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Tisch steht im Zimmer.",
-        "___ ist braun."
+        "Im Zimmer steht ein Tisch.",
+        "Der Tisch ist braun.",
+        "___ ist stabil."
       ]
     },
     {
-      "id": "l1-m-003",
+      "id": "l4-m-003",
       "article": "der",
       "noun": "Stuhl",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Stuhl steht am Tisch.",
+        "Am Tisch steht ein Stuhl.",
+        "Der Stuhl ist klein.",
         "___ ist bequem."
       ]
     },
     {
-      "id": "l1-m-004",
+      "id": "l4-m-004",
       "article": "der",
       "noun": "Apfel",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Apfel liegt auf dem Teller.",
+        "Auf dem Teller liegt ein Apfel.",
+        "Der Apfel ist rot.",
         "___ ist süß."
       ]
     },
     {
-      "id": "l1-m-005",
+      "id": "l4-m-005",
       "article": "der",
       "noun": "Hund",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Hund spielt im Garten.",
+        "Im Garten spielt ein Hund.",
+        "Der Hund ist klein.",
         "___ ist laut."
       ]
     },
     {
-      "id": "l1-m-006",
+      "id": "l4-m-006",
       "article": "der",
       "noun": "Fisch",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Fisch schwimmt im Wasser.",
-        "___ ist klein."
+        "Im Wasser schwimmt ein Fisch.",
+        "Der Fisch ist klein.",
+        "___ ist schnell."
       ]
     },
     {
-      "id": "l1-m-007",
+      "id": "l4-m-007",
       "article": "der",
       "noun": "Zug",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Zug steht am Bahnhof.",
-        "___ ist lang."
+        "Am Bahnhof steht ein Zug.",
+        "Der Zug ist lang.",
+        "___ ist schnell."
       ]
     },
     {
-      "id": "l1-m-008",
+      "id": "l4-m-008",
       "article": "der",
       "noun": "Bus",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Bus steht an der Straße.",
+        "An der Straße steht ein Bus.",
+        "Der Bus ist groß.",
         "___ ist voll."
       ]
     },
     {
-      "id": "l1-m-009",
+      "id": "l4-m-009",
       "article": "der",
       "noun": "Schuh",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Schuh steht vor der Tür.",
+        "Vor der Tür steht ein Schuh.",
+        "Der Schuh ist schwarz.",
         "___ ist neu."
       ]
     },
     {
-      "id": "l1-m-010",
+      "id": "l4-m-010",
       "article": "der",
       "noun": "Bleistift",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Bleistift liegt auf dem Tisch.",
+        "Auf dem Tisch liegt ein Bleistift.",
+        "Der Bleistift ist lang.",
         "___ ist spitz."
       ]
     },
     {
-      "id": "l1-m-011",
+      "id": "l4-m-011",
       "article": "der",
       "noun": "Löffel",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Löffel liegt neben dem Teller.",
-        "___ ist sauber."
+        "Neben dem Teller liegt ein Löffel.",
+        "Der Löffel ist sauber.",
+        "___ ist klein."
       ]
     },
     {
-      "id": "l1-m-012",
+      "id": "l4-m-012",
       "article": "der",
       "noun": "Teller",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Teller steht auf dem Tisch.",
+        "Auf dem Tisch steht ein Teller.",
+        "Der Teller ist weiß.",
         "___ ist rund."
       ]
     },
     {
-      "id": "l1-m-013",
+      "id": "l4-m-013",
       "article": "der",
       "noun": "Baum",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Baum steht im Garten.",
-        "___ ist hoch."
+        "Im Garten steht ein Baum.",
+        "Der Baum ist hoch.",
+        "___ ist grün."
       ]
     },
     {
-      "id": "l1-m-014",
+      "id": "l4-m-014",
       "article": "der",
       "noun": "Garten",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Garten liegt hinter dem Haus.",
+        "Hinter dem Haus liegt ein Garten.",
+        "Der Garten ist groß.",
         "___ ist schön."
       ]
     },
     {
-      "id": "l1-m-015",
+      "id": "l4-m-015",
       "article": "der",
       "noun": "Mond",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Mond steht am Himmel.",
-        "___ ist hell."
+        "Am Himmel steht der Mond.",
+        "Der Mond ist hell.",
+        "___ ist rund."
       ]
     },
     {
-      "id": "l1-m-016",
+      "id": "l4-m-016",
       "article": "der",
       "noun": "Schlüssel",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Schlüssel liegt auf dem Tisch.",
-        "___ ist klein."
+        "Auf dem Tisch liegt ein Schlüssel.",
+        "Der Schlüssel ist klein.",
+        "___ ist wichtig."
       ]
     },
     {
-      "id": "l1-m-017",
+      "id": "l4-m-017",
       "article": "der",
       "noun": "Rucksack",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Rucksack steht neben der Tür.",
+        "Neben der Tür steht ein Rucksack.",
+        "Der Rucksack ist blau.",
         "___ ist schwer."
       ]
     },
     {
-      "id": "l1-m-018",
+      "id": "l4-m-018",
       "article": "der",
       "noun": "Computer",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Computer steht auf dem Schreibtisch.",
+        "Auf dem Schreibtisch steht ein Computer.",
+        "Der Computer ist neu.",
         "___ ist schnell."
       ]
     },
     {
-      "id": "l1-m-019",
+      "id": "l4-m-019",
       "article": "der",
       "noun": "Saft",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Saft steht im Glas.",
-        "___ ist kalt."
+        "Im Glas ist Saft.",
+        "Der Saft ist kalt.",
+        "___ ist süß."
       ]
     },
     {
-      "id": "l1-m-020",
+      "id": "l4-m-020",
       "article": "der",
       "noun": "Käse",
       "gender": "maskulin",
       "pronoun": "er",
       "lines": [
-        "Der Käse liegt auf dem Teller.",
-        "___ ist gelb."
+        "Auf dem Teller liegt Käse.",
+        "Der Käse ist gelb.",
+        "___ ist lecker."
       ]
     },
     {
-      "id": "l1-f-021",
+      "id": "l4-f-021",
       "article": "die",
       "noun": "Lampe",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Lampe steht auf dem Tisch.",
+        "Auf dem Tisch steht eine Lampe.",
+        "Die Lampe ist neu.",
         "___ ist hell."
       ]
     },
     {
-      "id": "l1-f-022",
+      "id": "l4-f-022",
       "article": "die",
       "noun": "Tasche",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Tasche liegt auf dem Stuhl.",
+        "Auf dem Stuhl liegt eine Tasche.",
+        "Die Tasche ist blau.",
         "___ ist schwer."
       ]
     },
     {
-      "id": "l1-f-023",
+      "id": "l4-f-023",
       "article": "die",
       "noun": "Katze",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Katze sitzt auf dem Sofa.",
+        "Auf dem Sofa sitzt eine Katze.",
+        "Die Katze ist klein.",
         "___ ist leise."
       ]
     },
     {
-      "id": "l1-f-024",
+      "id": "l4-f-024",
       "article": "die",
       "noun": "Banane",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Banane liegt in der Tasche.",
-        "___ ist gelb."
+        "In der Tasche liegt eine Banane.",
+        "Die Banane ist gelb.",
+        "___ ist süß."
       ]
     },
     {
-      "id": "l1-f-025",
+      "id": "l4-f-025",
       "article": "die",
       "noun": "Blume",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Blume steht im Glas.",
+        "Im Glas steht eine Blume.",
+        "Die Blume ist rot.",
         "___ ist schön."
       ]
     },
     {
-      "id": "l1-f-026",
+      "id": "l4-f-026",
       "article": "die",
       "noun": "Schule",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Schule liegt an der Straße.",
-        "___ ist groß."
+        "An der Straße liegt eine Schule.",
+        "Die Schule ist groß.",
+        "___ ist neu."
       ]
     },
     {
-      "id": "l1-f-027",
+      "id": "l4-f-027",
       "article": "die",
       "noun": "Tür",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Tür steht offen.",
-        "___ ist groß."
+        "Im Zimmer ist eine Tür.",
+        "Die Tür ist braun.",
+        "___ ist offen."
       ]
     },
     {
-      "id": "l1-f-028",
+      "id": "l4-f-028",
       "article": "die",
       "noun": "Uhr",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Uhr hängt an der Wand.",
-        "___ ist alt."
+        "An der Wand hängt eine Uhr.",
+        "Die Uhr ist alt.",
+        "___ ist schön."
       ]
     },
     {
-      "id": "l1-f-029",
+      "id": "l4-f-029",
       "article": "die",
       "noun": "Gabel",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Gabel liegt neben dem Teller.",
-        "___ ist sauber."
+        "Neben dem Teller liegt eine Gabel.",
+        "Die Gabel ist sauber.",
+        "___ ist klein."
       ]
     },
     {
-      "id": "l1-f-030",
+      "id": "l4-f-030",
       "article": "die",
       "noun": "Flasche",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Flasche steht auf dem Tisch.",
-        "___ ist voll."
+        "Auf dem Tisch steht eine Flasche.",
+        "Die Flasche ist voll.",
+        "___ ist kalt."
       ]
     },
     {
-      "id": "l1-f-031",
+      "id": "l4-f-031",
       "article": "die",
       "noun": "Sonne",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Sonne scheint am Himmel.",
+        "Am Himmel scheint die Sonne.",
+        "Die Sonne ist hell.",
         "___ ist warm."
       ]
     },
     {
-      "id": "l1-f-032",
+      "id": "l4-f-032",
       "article": "die",
       "noun": "Hose",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Hose liegt auf dem Bett.",
-        "___ ist blau."
+        "Auf dem Bett liegt eine Hose.",
+        "Die Hose ist blau.",
+        "___ ist neu."
       ]
     },
     {
-      "id": "l1-f-033",
+      "id": "l4-f-033",
       "article": "die",
       "noun": "Jacke",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Jacke hängt an der Tür.",
+        "An der Tür hängt eine Jacke.",
+        "Die Jacke ist rot.",
         "___ ist warm."
       ]
     },
     {
-      "id": "l1-f-034",
+      "id": "l4-f-034",
       "article": "die",
       "noun": "Milch",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Milch steht im Kühlschrank.",
+        "Im Kühlschrank steht Milch.",
+        "Die Milch ist kalt.",
         "___ ist frisch."
       ]
     },
     {
-      "id": "l1-f-035",
+      "id": "l4-f-035",
       "article": "die",
       "noun": "Suppe",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Suppe steht auf dem Tisch.",
-        "___ ist heiß."
+        "Auf dem Tisch steht Suppe.",
+        "Die Suppe ist heiß.",
+        "___ ist lecker."
       ]
     },
     {
-      "id": "l1-f-036",
+      "id": "l4-f-036",
       "article": "die",
       "noun": "Straße",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Straße liegt vor der Schule.",
+        "Vor der Schule liegt eine Straße.",
+        "Die Straße ist lang.",
         "___ ist breit."
       ]
     },
     {
-      "id": "l1-f-037",
+      "id": "l4-f-037",
       "article": "die",
       "noun": "Maus",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Maus sitzt unter dem Tisch.",
+        "Unter dem Tisch sitzt eine Maus.",
+        "Die Maus ist klein.",
         "___ ist schnell."
       ]
     },
     {
-      "id": "l1-f-038",
+      "id": "l4-f-038",
       "article": "die",
       "noun": "Zeitung",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Zeitung liegt auf dem Sofa.",
+        "Auf dem Sofa liegt eine Zeitung.",
+        "Die Zeitung ist alt.",
         "___ ist interessant."
       ]
     },
     {
-      "id": "l1-f-039",
+      "id": "l4-f-039",
       "article": "die",
       "noun": "Familie",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Familie sitzt im Garten.",
+        "Im Garten sitzt eine Familie.",
+        "Die Familie ist groß.",
         "___ ist nett."
       ]
     },
     {
-      "id": "l1-f-040",
+      "id": "l4-f-040",
       "article": "die",
       "noun": "Küche",
       "gender": "feminin",
       "pronoun": "sie",
       "lines": [
-        "Die Küche ist neben dem Zimmer.",
+        "Neben dem Zimmer ist eine Küche.",
+        "Die Küche ist hell.",
         "___ ist sauber."
       ]
     },
     {
-      "id": "l1-n-041",
+      "id": "l4-n-041",
       "article": "das",
       "noun": "Buch",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Buch liegt im Regal.",
+        "Im Regal liegt ein Buch.",
+        "Das Buch ist alt.",
         "___ ist interessant."
       ]
     },
     {
-      "id": "l1-n-042",
+      "id": "l4-n-042",
       "article": "das",
       "noun": "Auto",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Auto steht vor dem Haus.",
+        "Vor dem Haus steht ein Auto.",
+        "Das Auto ist blau.",
         "___ ist schnell."
       ]
     },
     {
-      "id": "l1-n-043",
+      "id": "l4-n-043",
       "article": "das",
       "noun": "Haus",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Haus steht am Garten.",
-        "___ ist groß."
+        "Neben dem Garten steht ein Haus.",
+        "Das Haus ist groß.",
+        "___ ist alt."
       ]
     },
     {
-      "id": "l1-n-044",
+      "id": "l4-n-044",
       "article": "das",
       "noun": "Kind",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Kind spielt im Zimmer.",
+        "Im Zimmer spielt ein Kind.",
+        "Das Kind ist klein.",
         "___ ist müde."
       ]
     },
     {
-      "id": "l1-n-045",
+      "id": "l4-n-045",
       "article": "das",
       "noun": "Brot",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Brot liegt auf dem Tisch.",
-        "___ ist frisch."
+        "Auf dem Tisch liegt Brot.",
+        "Das Brot ist frisch.",
+        "___ ist lecker."
       ]
     },
     {
-      "id": "l1-n-046",
+      "id": "l4-n-046",
       "article": "das",
       "noun": "Wasser",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Wasser steht im Glas.",
-        "___ ist kalt."
+        "Im Glas ist Wasser.",
+        "Das Wasser ist kalt.",
+        "___ ist frisch."
       ]
     },
     {
-      "id": "l1-n-047",
+      "id": "l4-n-047",
       "article": "das",
       "noun": "Glas",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Glas steht auf dem Tisch.",
+        "Auf dem Tisch steht ein Glas.",
+        "Das Glas ist sauber.",
         "___ ist leer."
       ]
     },
     {
-      "id": "l1-n-048",
+      "id": "l4-n-048",
       "article": "das",
       "noun": "Messer",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Messer liegt neben dem Teller.",
+        "Neben dem Teller liegt ein Messer.",
+        "Das Messer ist klein.",
         "___ ist scharf."
       ]
     },
     {
-      "id": "l1-n-049",
+      "id": "l4-n-049",
       "article": "das",
       "noun": "Bett",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Bett steht im Zimmer.",
+        "Im Zimmer steht ein Bett.",
+        "Das Bett ist groß.",
         "___ ist weich."
       ]
     },
     {
-      "id": "l1-n-050",
+      "id": "l4-n-050",
       "article": "das",
       "noun": "Bild",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Bild hängt an der Wand.",
-        "___ ist bunt."
+        "An der Wand hängt ein Bild.",
+        "Das Bild ist bunt.",
+        "___ ist schön."
       ]
     },
     {
-      "id": "l1-n-051",
+      "id": "l4-n-051",
       "article": "das",
       "noun": "Fenster",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Fenster ist offen.",
-        "___ ist groß."
+        "Im Zimmer ist ein Fenster.",
+        "Das Fenster ist groß.",
+        "___ ist offen."
       ]
     },
     {
-      "id": "l1-n-052",
+      "id": "l4-n-052",
       "article": "das",
       "noun": "Zimmer",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Zimmer ist im Haus.",
+        "Im Haus ist ein Zimmer.",
+        "Das Zimmer ist klein.",
         "___ ist hell."
       ]
     },
     {
-      "id": "l1-n-053",
+      "id": "l4-n-053",
       "article": "das",
       "noun": "Fahrrad",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Fahrrad steht im Garten.",
+        "Im Garten steht ein Fahrrad.",
+        "Das Fahrrad ist neu.",
         "___ ist schnell."
       ]
     },
     {
-      "id": "l1-n-054",
+      "id": "l4-n-054",
       "article": "das",
       "noun": "Handy",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Handy liegt auf dem Tisch.",
-        "___ ist klein."
+        "Auf dem Tisch liegt ein Handy.",
+        "Das Handy ist klein.",
+        "___ ist neu."
       ]
     },
     {
-      "id": "l1-n-055",
+      "id": "l4-n-055",
       "article": "das",
       "noun": "Spiel",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Spiel liegt im Regal.",
+        "Im Regal liegt ein Spiel.",
+        "Das Spiel ist bunt.",
         "___ ist lustig."
       ]
     },
     {
-      "id": "l1-n-056",
+      "id": "l4-n-056",
       "article": "das",
       "noun": "Ei",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Ei liegt auf dem Teller.",
-        "___ ist weiß."
+        "Auf dem Teller liegt ein Ei.",
+        "Das Ei ist weiß.",
+        "___ ist klein."
       ]
     },
     {
-      "id": "l1-n-057",
+      "id": "l4-n-057",
       "article": "das",
       "noun": "Sofa",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Sofa steht im Zimmer.",
+        "Im Zimmer steht ein Sofa.",
+        "Das Sofa ist groß.",
         "___ ist bequem."
       ]
     },
     {
-      "id": "l1-n-058",
+      "id": "l4-n-058",
       "article": "das",
       "noun": "Radio",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Radio steht in der Küche.",
+        "In der Küche steht ein Radio.",
+        "Das Radio ist alt.",
         "___ ist laut."
       ]
     },
     {
-      "id": "l1-n-059",
+      "id": "l4-n-059",
       "article": "das",
       "noun": "Papier",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Papier liegt auf dem Tisch.",
+        "Auf dem Tisch liegt Papier.",
+        "Das Papier ist weiß.",
         "___ ist leicht."
       ]
     },
     {
-      "id": "l1-n-060",
+      "id": "l4-n-060",
       "article": "das",
       "noun": "Mädchen",
       "gender": "neutrum",
       "pronoun": "es",
       "lines": [
-        "Das Mädchen sitzt im Zimmer.",
+        "Im Zimmer sitzt ein Mädchen.",
+        "Das Mädchen ist nett.",
         "___ ist freundlich."
       ]
     }
